@@ -37,8 +37,4 @@ def nums_comparer(a, b)
 end
 
 
-if nums_comparer(a,b)
-  puts "ДА"
-else
-  puts "НЕТ"
-end
+puts nums_comparer(a,b) ? "ДА" : "НЕТ"
